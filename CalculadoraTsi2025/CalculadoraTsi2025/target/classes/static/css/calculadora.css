@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202020;
+}
+
+#container {
+    width: 98%;
+    height: 100vh;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.binaria {
+    display: flex;
+}
+
+.binaria form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+}
+
+input {
+    padding: 6px;
+    margin: 5px;
+}
+
+#operacao {
+    margin: 20px auto;
+    width: 30%;
+}
+
+button {
+    margin: 10px auto;
+    padding: 10px 25px;
+}
